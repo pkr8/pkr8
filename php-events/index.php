@@ -136,6 +136,7 @@
     
 </body>
 <script>
+
     var listOfEvents=[];
     var date =new Date();
     $( "#datepicker" ).datepicker();
@@ -164,7 +165,6 @@
     };
     xmlhttp2.open("GET", url, true);
     xmlhttp2.send();
-    
     
     function dateChange(){
         var date=$( "#datepicker" ).datepicker( "getDate" );
